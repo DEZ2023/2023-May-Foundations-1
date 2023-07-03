@@ -37,7 +37,7 @@ article {
     padding-right: 20vw;
     position: relative;
 }
-article::before {
+article:before {
     content: "";
     position: absolute;
     top: 0;
@@ -51,7 +51,7 @@ article::before {
     opacity: 0.1;
     z-index: -1;
 }
-#about::before {
+#about:before {
     background-image: url("../images/c64.jpg");
 }
 .logo {
@@ -83,4 +83,16 @@ article::before {
     margin-top: .3rem;
     margin-right: 1em;
     margin-bottom: 2em;
+}
+#services:before {
+    background-image: url("../images/www.jpg");
+}
+#services h2 {
+    font-size: 1.25em;
+}
+#apps::before {
+    background-image: url("../images/apps.jpg");
+}
+#services p, #apps p {
+    text-align: left;
 }
