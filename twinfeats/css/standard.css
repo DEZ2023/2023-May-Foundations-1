@@ -96,3 +96,8 @@ article:before {
 #services p, #apps p {
     text-align: left;
 }
+
+#contact:before {
+    background-image: url("../images/contact.jpg");
+}
+
