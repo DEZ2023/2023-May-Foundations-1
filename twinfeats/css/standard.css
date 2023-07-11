@@ -96,6 +96,7 @@ article:before {
 #services p, #apps p {
     text-align: left;
 }
+<<<<<<< HEAD
 #contact::before {
 background-image: url(/twinfeats/images/background.jpg);
 #contact img {
@@ -116,3 +117,10 @@ background-image: url(/twinfeats/images/background.jpg);
     color: #303030;
     text-decoration: underline;
 }
+=======
+
+#contact:before {
+    background-image: url("../images/contact.jpg");
+}
+
+>>>>>>> 40c2a389bd14ae945c6a1a091e568c428ebf3820
