@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    font-size: 3vh;
+    color: #303030
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.25em;
+    padding: 0.25em;
+    background-color: #0dff00;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0.5em;
+    text-align: center;
+  }
+  h1 {
+    margin: 0;
+  }
+  #mobile-nav, #mobile-trigger {
+    display: none;
+}
